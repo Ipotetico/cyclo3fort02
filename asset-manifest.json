@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cyclo3fort02/static/css/main.3a791330.css",
+    "main.js": "/cyclo3fort02/static/js/main.3cf7d40d.js",
+    "index.html": "/cyclo3fort02/index.html",
+    "main.3a791330.css.map": "/cyclo3fort02/static/css/main.3a791330.css.map",
+    "main.3cf7d40d.js.map": "/cyclo3fort02/static/js/main.3cf7d40d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3a791330.css",
+    "static/js/main.3cf7d40d.js"
+  ]
+}
