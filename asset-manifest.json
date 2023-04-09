@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/cyclo3fort02/static/css/main.3a791330.css",
-    "main.js": "/cyclo3fort02/static/js/main.3cf7d40d.js",
-    "index.html": "/cyclo3fort02/index.html",
-    "main.3a791330.css.map": "/cyclo3fort02/static/css/main.3a791330.css.map",
-    "main.3cf7d40d.js.map": "/cyclo3fort02/static/js/main.3cf7d40d.js.map"
+    "main.css": "./static/css/main.a168bb3f.css",
+    "main.js": "./static/js/main.8f1db52e.js",
+    "index.html": "./index.html",
+    "main.a168bb3f.css.map": "./static/css/main.a168bb3f.css.map",
+    "main.8f1db52e.js.map": "./static/js/main.8f1db52e.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a791330.css",
-    "static/js/main.3cf7d40d.js"
+    "static/css/main.a168bb3f.css",
+    "static/js/main.8f1db52e.js"
   ]
 }
