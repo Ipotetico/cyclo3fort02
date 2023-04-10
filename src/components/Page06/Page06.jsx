@@ -7,6 +7,8 @@ const Page06 = ({setPage}) => {
     <img onClick={()=> setPage(8)} src={process.env.PUBLIC_URL + '/images/fwd.svg'} alt="" className="fwd" />
         <img onClick={()=> setPage(1)} src={process.env.PUBLIC_URL + '/images/home.svg'} alt="" className="home" />
 
+      <img onClick={() => setPage(7)} src={process.env.PUBLIC_URL + '/images/back.svg'} alt="" className="back" />
+
 <div className="background__container">
       <img src={process.env.PUBLIC_URL + `/images/tlo_linie.webp`} alt="" className="background" />
     <h1 className="green red">

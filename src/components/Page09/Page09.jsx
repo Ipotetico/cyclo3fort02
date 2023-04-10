@@ -9,7 +9,7 @@ const Page09 = ({setPage}) => {
   return (
     <>
 <img onClick={()=> setPage(1)} src={process.env.PUBLIC_URL + '/images/home.svg'} alt="" className="home" />
-<img onClick={()=> setPage(11)} src={process.env.PUBLIC_URL + '/images/fwd.svg'} alt="" className="fwd" />
+      <img onClick={() => setPage(10)} src={process.env.PUBLIC_URL + '/images/fwd.svg'} alt="" className="fwd" />
 <img onClick={()=> setPage(8)} src={process.env.PUBLIC_URL + '/images/back.svg'} alt="" className="back" />
 
 
@@ -18,14 +18,14 @@ const Page09 = ({setPage}) => {
     </div>
 
 <div className="page__container">
-<header className="header__container page08">
+        <header className="header__container page11">
     <div className="icons__container">
         <img src={process.env.PUBLIC_URL + `/images/ruszczyk.svg`} alt="" />
-                <img src={process.env.PUBLIC_URL + `/images/hesperydyna.svg`} alt="" />
-                        <img src={process.env.PUBLIC_URL + `/images/askorbowy.svg`} alt="" />
+            <img src={process.env.PUBLIC_URL + `/images/hesperydyna.svg`} alt="" />
+            <img src={process.env.PUBLIC_URL + `/images/askorbowy.svg`} alt="" />
     </div>
 
-    <h1>UNIKALNE DZIAŁANIE LIMFOTONICZNE – NOWE DANE NAUKOWE</h1>
+          {/* <h1>UNIKALNE DZIAŁANIE LIMFOTONICZNE – NOWE DANE NAUKOWE</h1> */}
 
 </header>
 <section className="grades__container page09">

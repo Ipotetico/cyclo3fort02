@@ -8,6 +8,11 @@
     position: absolute;
     bottom: 0;
     right: 0;
+&.puguly {
+        width: 17vw;
+        height: auto;
+        margin-right: 2vw;
+    }
 }
 
 .back {
@@ -35,12 +40,6 @@
     align-items: flex-end;
     overflow: hidden;
 
-    .okladka {
-        position: absolute;
-        bottom: 5%;
-        width: 100%;
-    }
-
     &.linie {
         width: auto;
         z-index: -2;
@@ -48,12 +47,11 @@
         align-items: center;
         justify-content: center;
         overflow: hidden;
-
         img {
             bottom: 0;
-            width: 100%;
-        }
-    }
+                        width: 100%;
+                        }
+                        }
 
 }
 
@@ -64,7 +62,7 @@
 
     .header__container {
         width: 100%;
-        height: 25%;
+        height: 27%;
         background-color: white;
         padding: 1vw;
         display: grid;
@@ -81,12 +79,8 @@
                 margin-left: 2vw;
             }
         }
-
         &.page11 {
-            background: none;
-            width: 90%;
-            height: 20%;
-            grid-template-rows: 1fr;
+            height: 17%;
         }
 
         h1 {
@@ -104,6 +98,9 @@
             display: grid;
             grid-template-columns: 1.3fr 1fr 1fr;
 
+            &.page11 {
+                    width: 90%;
+                }
             img {
                 width: 90%;
                 align-self: center;
@@ -122,10 +119,37 @@
 
     .grades__container {
         width: 100%;
-        height: 70%;
+        height: 65%;
         display: grid;
         grid-template-columns: 1fr 1fr;
 
+        &.page11 {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr 1fr;
+        
+        
+                .container {
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    height: 100% / 3;
+        
+                    .szczala {
+                        padding: 2vw;
+                        width: 50%;
+                    }
+        
+                    .gira {
+                        width: 25%;
+                        margin-left: 3vw;
+                    }
+                }
+        
+        
+        
+        
+            }
         &.page08 {
             height: 60%;
             display: flex;
@@ -135,7 +159,7 @@
             // grid-template-rows: repeat(3, 1fr);
 
             img {
-                height: 100%;
+            height: 100%;
                 width: auto;
             }
 
@@ -161,15 +185,39 @@
                 grid-template-columns: 1.5fr 1fr .2fr .5fr;
 
                 &.page10 {
-                    grid-template-columns: 1fr .5fr 1fr .5fr 1fr;
-
-                    h1 {
+                    height: 100%;
+                        grid-template-columns: 1fr 1fr 1fr;
+                    
+                        .container {
+                            box-sizing: border-box;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-between;
+                            padding: 0 1vw;
+                        }
+                                                        .title_orange {
+                                                            color: #ff7900;
                         text-align: center;
                         text-transform: uppercase;
-                        font-size: calc(15px + 1vw);
+                        font-size: calc(20px + 1vw);
+                            font-weight: 800;
+                        }
+                        
+                        .title_black {
+                            display: inline-block;
+                            text-align: left;
+                            color: black;
+                            font-weight: 400;
+                            font-size: calc(15px + 1vw);
+                        margin-bottom: 5vw;
+                        
+                            sup {
+                                vertical-align: super;
+                                font-size: calc(8px + .2vw);
+                            }
                     }
                 }
-            }
+}
 
             .container_down {
                 height: 75%;
@@ -229,6 +277,7 @@
     z-index: 999;
     font-size: calc(9px + .2vw);
     font-weight: 200;
+
 
     &.page08 {
         margin-left: 8vw;

@@ -7,7 +7,8 @@ const Page11 = ({setPage}) => {
   return (
     <>
         <img onClick={()=> setPage(1)} src={process.env.PUBLIC_URL + '/images/home.svg'} alt="" className="home" />
-<img onClick={()=> setPage(9)} src={process.env.PUBLIC_URL + '/images/back.svg'} alt="" className="back" />
+      <img onClick={() => setPage(10)} src={process.env.PUBLIC_URL + '/images/back.svg'} alt="" className="back" />
+            <img onClick={() => setPage(12)} src={process.env.PUBLIC_URL + '/images/piguly.png'} alt="" className="fwd puguly" />
 
 
     <div className="background__container linie">
@@ -16,7 +17,7 @@ const Page11 = ({setPage}) => {
 
 <div className="page__container">
 <header className="header__container page11">
-    <div className="icons__container">
+    <div className="icons__container page11">
         <img src={process.env.PUBLIC_URL + `/images/ruszczyk.svg`} alt="" />
                 <img src={process.env.PUBLIC_URL + `/images/hesperydyna.svg`} alt="" />
                         <img src={process.env.PUBLIC_URL + `/images/askorbowy.svg`} alt="" />
@@ -25,12 +26,22 @@ const Page11 = ({setPage}) => {
 
 </header>
 <section className="grades__container page11">
-        <img style={{width:'80%'}} src={process.env.PUBLIC_URL + `/images/obrzek.svg`} alt="" />
-<img style={{width:'50%'}}  src={process.env.PUBLIC_URL + `/images/01.jpg`} alt="" />
-      <img style={{width:'80%'}} src={process.env.PUBLIC_URL + `/images/bol.svg`} alt="" />
-<img style={{width:'50%'}}  src={process.env.PUBLIC_URL + `/images/02.jpg`} alt="" />
-      <img style={{width:'80%'}} src={process.env.PUBLIC_URL + `/images/uczucie.svg`} alt="" />
-<img style={{width:'50%'}}  src={process.env.PUBLIC_URL + `/images/03.jpg`} alt="" />
+          <div className="container">
+            <img className='szczala' src={process.env.PUBLIC_URL + `/images/obrzek.svg`} alt="" />
+            <img className='gira' src={process.env.PUBLIC_URL + `/images/01.jpg`} alt="" />
+          </div>
+
+              <div className="container">
+            <img className='szczala' src={process.env.PUBLIC_URL + `/images/bol.svg`} alt="" />
+            <img className='gira' src={process.env.PUBLIC_URL + `/images/02.jpg`} alt="" />
+          </div>
+
+              <div className="container">
+            <img className='szczala' src={process.env.PUBLIC_URL + `/images/uczucie.svg`} alt="" />
+            <img className='gira' src={process.env.PUBLIC_URL + `/images/03.jpg`} alt="" />
+          </div>
+
+    
 </section>
 </div>
 <p className="notes page08">PFM/42/2023</p>

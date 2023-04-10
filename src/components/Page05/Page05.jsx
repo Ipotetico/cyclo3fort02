@@ -8,6 +8,8 @@ const Page05 = ({setPage}) => {
 
         <img onClick={()=> setPage(7)} src={process.env.PUBLIC_URL + '/images/fwd.svg'} alt="" className="fwd" />
 
+      <img onClick={() => setPage(3)} src={process.env.PUBLIC_URL + '/images/back.svg'} alt="" className="back" />
+
     
     
 
