@@ -18,7 +18,7 @@ const Page03 = ({ setPage }) => {
             vs. ryzyko działań niepożądanych
           </p>
         </h1>
-        <div onClick={() => setPage(2)} className="table">
+        <div onClick={() => setPage(2)} className="table page03">
           <div className="white"></div>
           <div className="orange">Wyciągi z Ruszczyka*</div>
           <div className="grey">ból</div>
@@ -29,13 +29,9 @@ const Page03 = ({ setPage }) => {
           <div className="orange lighter">1</div>
           <div className="grey next darker">Uczucie zmęczenia nóg</div>
           <div className="orange lighter">1</div>
-          <div className="grey next">Kurcze</div>
-          <div className="orange lighter">2</div>
-          <div className="grey next darker">Parestezje</div>
+          <div className="grey next ">Parestezje</div>
           <div className="orange lighter">1</div>
-          <div className="grey next">Świąd</div>
-          <div className="orange lighter">2</div>
-          <div className="grey next darker last">OBJĘTOŚĆ KOŃCZYNY**</div>
+          <div className="grey next darker last">Obrzęk</div>
           <div className="orange lighter last">1</div>
         </div>
         <div className="przypisy">
@@ -45,7 +41,7 @@ const Page03 = ({ setPage }) => {
           <p className="przypis">
             Źródło: Na podst.: Nicolaides AN, et al.: Venoactive drugs. International Angiology 2018; 37: 232-254 <br />
             * dane dotyczą wyciągu z Ruszczyka kolczastego z hesperydyną i kwasem askorbowym; <br />
-            ** obliczona z obwodu łydek i kostek na podstawie modelu ściętego stożka
+            {/* ** obliczona z obwodu łydek i kostek na podstawie modelu ściętego stożka */}
           </p>
         </div>
       </div>

@@ -72,6 +72,10 @@
             grid-template-rows: 2fr repeat(13, 1fr);
         }
 
+        &.page03 {
+            grid-template-rows: 2fr repeat(6, 1fr);
+        }
+
         &.page04 {
             grid-template-columns: repeat(6, 1fr);
             grid-template-rows: 2fr repeat(14, 1fr);
