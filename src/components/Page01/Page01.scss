@@ -188,6 +188,11 @@
                         font-size: calc(15px + 1vw);
                         margin-bottom: 5vw;
 
+                        &.page10 {
+                            margin-top: 2vw;
+                            align-self: flex-start;
+                        }
+
                         sup {
                             vertical-align: super;
                             font-size: calc(8px + .2vw);

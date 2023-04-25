@@ -15,7 +15,6 @@ import Page13 from './components/Page13/Page13';
 import Page14 from './components/Page14/Page14';
 
 const App = () => {
-
   const [page, setPage] = useState(1);
 
   return (
