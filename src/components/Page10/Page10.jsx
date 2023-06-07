@@ -128,7 +128,7 @@ const Page10 = ({ setPage }) => {
         Rauly-Lestienne I. et al.: Contribution of muscarinic receptors to in
         vitro and in vivo effects of Ruscus extract. Microvascular Research
         2017;114:1-11 – działanie Ruszczyka, pobudzenie receptorów muskarynowych
-        M1 i M3; 6. N. Monjotin, G. Teca, Lymphotonic activity of Ruscus
+        M1 i M3; 6. N. Monjotin, G. Tecna, Lymphotonic activity of Ruscus
         extract, hesperidin methyl chalcone and vitamin C in human lymphatic
         smooth muscle cells, Microvascular Research 2022;139 *kurczliwość:
         cykliczna czynność skurczowa, **zależnie od stężenia leku

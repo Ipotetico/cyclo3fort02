@@ -99,11 +99,11 @@ const Page09 = ({ setPage }) => {
       </div>
       <p className='notes page08'>
         *zależnie od stężenia leku, <br />
-        ** Micronised Purified Flavonoic Fraction, zmikronizowana oczyszczona
+        ** Micronised Purified Flavonoid Fraction, zmikronizowana oczyszczona
         frakcja flawonoidowa; <br />
         *** w porównaniu z połączeniem wyciągu z Ruszczyka kolczastego,
         hesperydyny, kwasu askorbowego <br />
-        N. Monjotin, G. Teca, Lymphotonic activity of Ruscus extract, hesperidin
+        N. Monjotin, G. Tenca, Lymphotonic activity of Ruscus extract, hesperidin
         methyl chalcone and vitamin C in human lymphatic smooth muscle cells,
         Microvascular Research 2022;139
       </p>

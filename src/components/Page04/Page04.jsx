@@ -202,8 +202,8 @@ const Page04 = ({ setPage }) => {
             International Angiology 2018; 37: 232-254 <br />
             * dane dotyczą wyciągu z Ruszczyka kolczastego z hesperydyną i
             kwasem askorbowym; <br />
-            ** obliczona z obwodu łydek i kostek na podstawie modelu ściętego
-            stożka
+            {/* ** obliczona z obwodu łydek i kostek na podstawie modelu ściętego
+            stożka */}
           </p>
         </div>
       </div>
